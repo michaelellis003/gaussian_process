@@ -1,0 +1,14 @@
+---
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Code for full Bayesian inference for a Gaussian Process model for spatial data
+
+```{r, include=TRUE, eval=TRUE, echo=FALSE, fig.height = 8, fig.width = 10, fig.align = "center"}
+source("main.R")
+run_example()
+```
